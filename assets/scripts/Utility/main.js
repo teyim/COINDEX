@@ -30,7 +30,7 @@ const mainpage=document.querySelector(".mainpage");
 let blob;
 const today = new Date()
 const yesterday = new Date(today)
-yesterday.setDate(yesterday.getDate() - 2)
+yesterday.setDate(yesterday.getDate() - 3)
 const ntoday=today.toISOString().slice(0,10)
 const nyesterday=yesterday.toISOString().slice(0,10);
 //animations and welcome page handler
