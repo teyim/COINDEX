@@ -33,8 +33,6 @@ h1, h3, h4, h2, div, h6, h5 {
           align-items: center;
   text-align: center;
   margin-top: 40px;
-  overflow-y: hidden;
-  max-height: 90vh;
 }
 
 .slide img {
