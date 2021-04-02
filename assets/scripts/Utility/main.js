@@ -214,7 +214,6 @@ async function generateReport() {
         const reportDate=processDate(dropdown4.value);
         const tempVal=dropdown3.value;
         const report=await httpRequest(`https://api.exchangerate.host/timeseries?start_date=${reportDate}&end_date=${ntoday}&base=${tempVal}&format=csv`,"csv");
-        console.log(report);
          blob= new Blob([report],{type:'text/csv'});
          gerReportLoader.classList.toggle('d-none');
          Reportpage.classList.remove('d-none');
